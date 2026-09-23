@@ -1,0 +1,84 @@
+site_name: Understanding neuroimaging for CALMaR
+site_description: A practical neuroimaging guide for engineers working on CALMaR
+site_url: https://micmas.github.io/calmar-knowledge/
+repo_url: https://github.com/micmas/calmar-knowledge
+repo_name: micmas/calmar-knowledge
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Use dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Use light mode
+
+nav:
+  - Home: index.md
+  - Foundations:
+      - Why neuroimaging matters: foundations/index.md
+      - Images used by CALMaR: foundations/mri-inputs.md
+      - Images as spatial data: foundations/image-data.md
+  - Workflow:
+      - CALMaR workflow: workflow/index.md
+      - Automatic lesion segmentation: workflow/segmentation.md
+      - Quality control: workflow/quality-control.md
+  - Analyses:
+      - Overview: analyses/index.md
+      - Atlas overlap: analyses/atlas-overlap.md
+      - Tracts and disconnection: analyses/disconnection.md
+      - Meta-analytic decoding: analyses/decoding.md
+  - Clinical interpretation: interpretation.md
+  - Working on CALMaR: engineering/index.md
+  - Recurring questions: faq.md
+  - Resources: resources.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/micmas/calmar
+      name: CALMaR on GitHub
+
+copyright: CALMaR knowledge guide

@@ -1,0 +1,47 @@
+:root {
+  --md-primary-fg-color: #12324a;
+  --md-primary-fg-color--light: #1f5871;
+  --md-primary-fg-color--dark: #0a2234;
+  --md-accent-fg-color: #007d78;
+  --calmar-cyan: #2fb8b2;
+  --calmar-ink: #102532;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #102532;
+  --md-accent-fg-color: #55d3ca;
+}
+
+.md-header {
+  background: linear-gradient(110deg, #0a2234 0%, #164861 65%, #007d78 100%);
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--calmar-ink);
+  letter-spacing: -0.015em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #eef9fb;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-top: 3px solid var(--calmar-cyan);
+}
+
+.md-typeset table:not([class]) th {
+  background: #12324a;
+  color: white;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.2rem;
+}
+
+.pipeline-caption {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+}
