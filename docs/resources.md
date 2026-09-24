@@ -25,7 +25,7 @@
 
 ## Lesion methods and interpretation
 
-- Huang et al. review MRI contrasts used to visualise stroke and recovery: [Frontiers in Neurology](https://doi.org/10.3389/fneur.2013.00060).
+- MacIntosh and Graham review MRI contrasts used to visualise stroke and recovery: [Frontiers in Neurology](https://doi.org/10.3389/fneur.2013.00060).
 - Pustina et al. describe LINDA for chronic stroke lesion segmentation: [Human Brain Mapping](https://doi.org/10.1002/hbm.23110).
 - Wilson and Hula review multivariate approaches to aphasia and neural substrates: [Current Neurology and Neuroscience Reports](https://doi.org/10.1007/s11910-019-0971-6).
 - Salvalaggio et al. compare lesion and disconnection information for post-stroke deficit prediction: [Brain](https://doi.org/10.1093/brain/awaa156).

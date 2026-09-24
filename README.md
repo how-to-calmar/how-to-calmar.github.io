@@ -4,6 +4,8 @@ This repository contains a Markdown-first knowledge site for engineers and colla
 
 Its introductory section, **Understanding neuroimaging for CALMaR**, explains the concepts needed to understand, extend, and evaluate the workflow. Changing implementation details and lesion-segmentation benchmark results remain in the CALMaR repository rather than being duplicated here.
 
+The repository's code and original content use the project licence. Reproduced or adapted third-party images retain their own licences and attribution; see [`docs/image-credits.md`](docs/image-credits.md).
+
 ## Preview locally
 
 ```bash

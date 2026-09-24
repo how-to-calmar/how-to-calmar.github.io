@@ -50,7 +50,9 @@ nav:
   - Clinical interpretation: interpretation.md
   - Working on CALMaR: engineering/index.md
   - Recurring questions: faq.md
-  - Resources: resources.md
+  - Resources:
+      - Reading and tools: resources.md
+      - Figure and image credits: image-credits.md
   - Contributing: contributing.md
 
 markdown_extensions:

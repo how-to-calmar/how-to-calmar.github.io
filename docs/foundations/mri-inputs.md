@@ -9,19 +9,25 @@ Contributors do not need to diagnose scans or recognise every sequence by sight.
 
     The same T1-weighted image could support brain extraction, tissue segmentation, registration, morphometry, lesion segmentation, or atlas mapping. Conversely, one analysis may combine several image types. Never infer the analysis solely from the file's appearance or modality label.
 
+<figure class="calmar-figure" markdown>
+![Examples of several MRI contrasts used in stroke imaging, including angiographic, susceptibility-weighted, T1-weighted, FLAIR, T2-weighted and perfusion-weighted images.](../assets/open-imaging/macintosh-graham-2013-figure-1.webp)
+<figcaption><strong>Figure 1. One label, many MRI contrasts.</strong> These examples include phase-contrast angiography, susceptibility-weighted imaging, T1-weighted MRI, FLAIR, T2-weighted MRI and perfusion-weighted imaging. They illustrate why “an MRI” is not a sufficiently precise input specification. Reproduced from Figure 1 of <a href="https://doi.org/10.3389/fneur.2013.00060">MacIntosh and Graham (2013)</a>, licensed <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</figcaption>
+</figure>
+
 ## CALMaR-relevant image types
 
-| Schematic | Image type | What it helps show | Why the workflow may use it |
+| Example | Image type | What it helps show | Why the workflow may use it |
 |---|---|---|---|
-| ![Simplified T1-weighted MRI](../assets/modality-t1.svg){ .modality-thumb } | T1-weighted MRI | Anatomical structure and tissue boundaries | Chronic-lesion segmentation, brain extraction, registration, atlas mapping |
-| ![Simplified T2 and FLAIR MRI](../assets/modality-t2-flair.svg){ .modality-thumb } | T2-weighted or FLAIR MRI | Water-sensitive pathology with strong lesion contrast in many settings | Complementary lesion information and white-matter abnormality context |
-| ![Simplified diffusion-weighted MRI](../assets/modality-dwi.svg){ .modality-thumb } | Diffusion-weighted imaging | Restricted water diffusion | Detecting acute ischaemic injury |
-| ![Simplified ADC map](../assets/modality-adc.svg){ .modality-thumb } | Apparent diffusion coefficient | Quantified diffusion signal | Interpreting whether DWI hyperintensity reflects true restriction |
-| ![Simplified diffusion MRI direction map](../assets/modality-diffusion.svg){ .modality-thumb } | Diffusion MRI | Direction-dependent diffusion | Modelling white-matter organisation and structural connectivity |
-| ![Simplified functional MRI activation map](../assets/modality-fmri.svg){ .modality-thumb } | Functional MRI | Blood-oxygenation changes related to neural activity | Research on task activity and functional networks |
-| ![Simplified non-contrast CT](../assets/modality-ct.svg){ .modality-thumb } | CT | Tissue density and blood | Common acute clinical imaging, requiring modality-specific processing |
+| ![Real axial T1-weighted MRI](../assets/open-imaging/normal-t1-axial.jpg){ .modality-thumb } | T1-weighted MRI | Anatomical structure and tissue boundaries | Chronic-lesion segmentation, brain extraction, registration, atlas mapping |
+| ![Real axial T2-weighted MRI](../assets/open-imaging/normal-t2-axial.jpg){ .modality-thumb } | T2-weighted MRI | Water-sensitive tissue contrast; fluid is usually bright | Complementary lesion information and white-matter abnormality context |
+| ![Real axial FLAIR MRI](../assets/open-imaging/normal-flair-axial.jpg){ .modality-thumb } | FLAIR MRI | T2-like contrast with free-fluid signal suppressed | Making many lesions and white-matter abnormalities conspicuous near CSF |
+| ![Real axial diffusion-weighted MRI](../assets/open-imaging/normal-dwi-axial.jpg){ .modality-thumb } | Diffusion-weighted imaging | Restricted water diffusion | Detecting acute ischaemic injury |
+| ![Real axial apparent diffusion coefficient map](../assets/open-imaging/normal-adc-axial.jpg){ .modality-thumb } | Apparent diffusion coefficient | Quantified diffusion signal | Interpreting whether DWI hyperintensity reflects true restriction |
+| ![Real diffusion MRI tractography and probabilistic map](../assets/open-imaging/diffusion-tractography.jpg){ .modality-thumb } | Diffusion MRI | Direction-dependent diffusion | Modelling white-matter organisation and structural connectivity |
+| ![Real functional MRI activation map](../assets/open-imaging/fmri-activation.jpg){ .modality-thumb } | Functional MRI | Blood-oxygenation changes related to neural activity | Research on task activity and functional networks |
+| ![Real head CT showing an intracerebral haemorrhage](../assets/open-imaging/head-ct-stroke.jpg){ .modality-thumb } | CT | Tissue density and blood | Common acute clinical imaging, requiring modality-specific processing |
 
-<p class="figure-caption"><strong>Table 1. CALMaR-relevant image types.</strong> The thumbnails are original teaching schematics and intentionally exaggerate characteristic contrasts. They are orientation aids, not examples for sequence recognition or diagnosis.</p>
+<p class="figure-caption"><strong>Table 1. CALMaR-relevant image types.</strong> These are real images, included to show that the inputs look materially different—not as a sequence-recognition or diagnostic test. Sources and licences are listed in <a href="../../image-credits/">image credits</a>.</p>
 
 ## Inputs are not interchangeable
 

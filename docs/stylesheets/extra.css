@@ -66,6 +66,74 @@
   max-width: 48rem;
 }
 
+.tissue-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: #eef4f6;
+}
+
+.tissue-panel__title {
+  margin-bottom: 0.45rem;
+  color: #102532;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tissue-panel__image {
+  position: relative;
+}
+
+.calmar-figure .tissue-panel__image img {
+  border-radius: 0.4rem;
+  background: #081117;
+}
+
+.tissue-panel__image svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.tissue-panel__image line {
+  stroke: #55d3ca;
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.tissue-callout {
+  position: absolute;
+  z-index: 1;
+  padding: 0.25rem 0.45rem;
+  border-radius: 0.3rem;
+  background: rgb(255 255 255 / 92%);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 35%);
+  color: #102532;
+  font-size: clamp(0.55rem, 1.2vw, 0.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.tissue-callout--csf {
+  top: 5%;
+  left: 5%;
+}
+
+.tissue-callout--gm {
+  bottom: 5%;
+  left: 5%;
+}
+
+.tissue-callout--wm {
+  right: 5%;
+  bottom: 5%;
+}
+
 .calmar-figure figcaption,
 .figure-caption {
   margin: 0.65rem auto 0;
@@ -79,10 +147,18 @@
   width: 7.5rem;
   min-width: 7.5rem;
   height: auto;
+  max-height: 7.5rem;
+  object-fit: contain;
+  background: #081117;
+  border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 0.35rem;
 }
 
 @media screen and (max-width: 44.984375em) {
+  .tissue-comparison {
+    grid-template-columns: 1fr;
+  }
+
   .modality-thumb {
     width: 6rem;
     min-width: 6rem;
