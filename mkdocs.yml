@@ -32,6 +32,13 @@ theme:
         icon: material/weather-sunny
         name: Use light mode
 
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+      timezone: Australia/Brisbane
+      locale: en
+
 nav:
   - Home: index.md
   - Foundations:
