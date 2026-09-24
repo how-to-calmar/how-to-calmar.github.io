@@ -25,23 +25,19 @@
 
 ## Lesion methods and interpretation
 
+- Huang et al. review MRI contrasts used to visualise stroke and recovery: [Frontiers in Neurology](https://doi.org/10.3389/fneur.2013.00060).
 - Pustina et al. describe LINDA for chronic stroke lesion segmentation: [Human Brain Mapping](https://doi.org/10.1002/hbm.23110).
 - Wilson and Hula review multivariate approaches to aphasia and neural substrates: [Current Neurology and Neuroscience Reports](https://doi.org/10.1007/s11910-019-0971-6).
 - Salvalaggio et al. compare lesion and disconnection information for post-stroke deficit prediction: [Brain](https://doi.org/10.1093/brain/awaa156).
 - Boyd et al. distinguish developmental and trial-ready stroke recovery biomarkers: [Neurorehabilitation and Neural Repair](https://doi.org/10.1177/1545968317732680).
 - Nichols et al. summarise MRI analysis and sharing practices: [Nature Neuroscience](https://doi.org/10.1038/nn.4500).
 
+## Language systems
+
+- Hickok and Poeppel describe a dorsal–ventral model of cortical speech processing: [Nature Reviews Neuroscience](https://doi.org/10.1038/nrn2113).
+- Fedorenko, Ivanova and Regev distinguish the core language-selective network from interacting perceptual, motor and broader cognitive systems: [Nature Reviews Neuroscience](https://doi.org/10.1038/s41583-024-00802-4).
+
 ## Meta-analysis and decoding
 
 - [NiMARE documentation](https://nimare.readthedocs.io/)
 - Salo et al. describe NiMARE in [Aperture Neuro](https://doi.org/10.52294/001c.87681).
-
-## Suggested future NeurodeskEDU examples
-
-1. NIfTI images, affines, orientations, and spaces
-2. Inspecting an automatic stroke lesion mask
-3. Comparing mask metrics with clinically important errors
-4. Transforming a mask while preserving labels
-5. Calculating atlas overlap with explicit denominators
-
-These examples should live in NeurodeskEDU so they can use its executable, tested notebook workflow. This site can link to them when they become available.

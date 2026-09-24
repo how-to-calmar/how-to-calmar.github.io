@@ -4,17 +4,24 @@ MRI is a family of measurements. Different acquisitions emphasise different tiss
 
 Contributors do not need to diagnose scans or recognise every sequence by sight. They do need to know what information an input contributes and whether a tool was designed for it.
 
+!!! warning "Image type is not the analysis"
+    An image type describes how data were acquired or derived—for example, T1-weighted MRI, DWI, an ADC map, or fMRI. An analysis is what is done with those data—for example, segmentation, registration, tractography, connectivity estimation, atlas overlap, or decoding.
+
+    The same T1-weighted image could support brain extraction, tissue segmentation, registration, morphometry, lesion segmentation, or atlas mapping. Conversely, one analysis may combine several image types. Never infer the analysis solely from the file's appearance or modality label.
+
 ## CALMaR-relevant image types
 
-| Image type | What it helps show | Why the workflow may use it |
-|---|---|---|
-| T1-weighted MRI | Anatomical structure and tissue boundaries | Chronic-lesion segmentation, brain extraction, registration, atlas mapping |
-| T2-weighted or FLAIR MRI | Water-sensitive pathology with strong lesion contrast in many settings | Complementary lesion information and white-matter abnormality context |
-| Diffusion-weighted imaging | Restricted water diffusion | Detecting acute ischaemic injury |
-| Apparent diffusion coefficient | Quantified diffusion signal | Interpreting whether DWI hyperintensity reflects true restriction |
-| Diffusion MRI | Direction-dependent diffusion | Modelling white-matter organisation and structural connectivity |
-| Functional MRI | Blood-oxygenation changes related to neural activity | Research on task activity and functional networks |
-| CT | Tissue density and blood | Common acute clinical imaging, requiring modality-specific processing |
+| Schematic | Image type | What it helps show | Why the workflow may use it |
+|---|---|---|---|
+| ![Simplified T1-weighted MRI](../assets/modality-t1.svg){ .modality-thumb } | T1-weighted MRI | Anatomical structure and tissue boundaries | Chronic-lesion segmentation, brain extraction, registration, atlas mapping |
+| ![Simplified T2 and FLAIR MRI](../assets/modality-t2-flair.svg){ .modality-thumb } | T2-weighted or FLAIR MRI | Water-sensitive pathology with strong lesion contrast in many settings | Complementary lesion information and white-matter abnormality context |
+| ![Simplified diffusion-weighted MRI](../assets/modality-dwi.svg){ .modality-thumb } | Diffusion-weighted imaging | Restricted water diffusion | Detecting acute ischaemic injury |
+| ![Simplified ADC map](../assets/modality-adc.svg){ .modality-thumb } | Apparent diffusion coefficient | Quantified diffusion signal | Interpreting whether DWI hyperintensity reflects true restriction |
+| ![Simplified diffusion MRI direction map](../assets/modality-diffusion.svg){ .modality-thumb } | Diffusion MRI | Direction-dependent diffusion | Modelling white-matter organisation and structural connectivity |
+| ![Simplified functional MRI activation map](../assets/modality-fmri.svg){ .modality-thumb } | Functional MRI | Blood-oxygenation changes related to neural activity | Research on task activity and functional networks |
+| ![Simplified non-contrast CT](../assets/modality-ct.svg){ .modality-thumb } | CT | Tissue density and blood | Common acute clinical imaging, requiring modality-specific processing |
+
+<p class="figure-caption"><strong>Table 1. CALMaR-relevant image types.</strong> The thumbnails are original teaching schematics and intentionally exaggerate characteristic contrasts. They are orientation aids, not examples for sequence recognition or diagnosis.</p>
 
 ## Inputs are not interchangeable
 

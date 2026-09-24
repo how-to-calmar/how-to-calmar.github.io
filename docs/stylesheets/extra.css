@@ -45,3 +45,50 @@
   color: var(--md-default-fg-color--light);
   font-size: 0.85rem;
 }
+
+.calmar-figure {
+  margin: 1.5rem 0 2rem;
+}
+
+.calmar-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 42rem;
+  margin: 0 auto;
+  object-fit: contain;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: #f4f8fa;
+}
+
+.calmar-figure--narrow img {
+  max-width: 48rem;
+}
+
+.calmar-figure figcaption,
+.figure-caption {
+  margin: 0.65rem auto 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.modality-thumb {
+  display: block;
+  width: 7.5rem;
+  min-width: 7.5rem;
+  height: auto;
+  border-radius: 0.35rem;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .modality-thumb {
+    width: 6rem;
+    min-width: 6rem;
+  }
+
+  .md-typeset table:not([class]) {
+    font-size: 0.72rem;
+  }
+}

@@ -28,6 +28,8 @@ flowchart TD
     J --> K[Traceable report]
 ```
 
+<p class="figure-caption"><strong>Figure 1. CALMaR at a glance.</strong> The automatic path continues with explicit quality-control status and uncertainty when human review is unavailable. Human review or correction is an optional branch.</p>
+
 Human review can improve confidence and provide a corrected or reference mask, but the workflow must remain capable of producing an explicitly qualified result when no human-traced mask is available.
 
 ## Start where the work takes you

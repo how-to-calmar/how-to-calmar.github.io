@@ -4,16 +4,10 @@ Lesion segmentation assigns each voxel to lesion or non-lesion, often by first e
 
 ## Primary workflow
 
-```mermaid
-flowchart LR
-    A[Supported image inputs] --> B[Required preprocessing]
-    B --> C[Segmentation algorithm]
-    C --> D[Probability or candidate mask]
-    D --> E[Post-processing]
-    E --> F[Automatic mask]
-    F --> G[Automated QC and uncertainty]
-    G --> H[Optional human review or correction]
-```
+<figure class="calmar-figure calmar-figure--narrow" markdown>
+![Vertical CALMaR lesion-segmentation workflow showing that the automatic mask and automated quality control form a complete primary path, with human review as an optional branch.](../assets/segmentation-workflow.svg)
+<figcaption><strong>Figure 1. CALMaR's primary lesion-segmentation workflow.</strong> Supported inputs proceed through documented preprocessing, segmentation, post-processing, automated quality control and uncertainty reporting. Human review can be added when available, but a human-traced mask is not required for the workflow to produce a qualified automatic result. This is an original schematic.</figcaption>
+</figure>
 
 CALMaR should work without a human-traced mask. When review is available, it can identify failures, correct a candidate mask, or create a reference for benchmarking. The report must make clear which mask source was used.
 

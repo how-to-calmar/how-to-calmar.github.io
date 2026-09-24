@@ -24,6 +24,8 @@ flowchart TD
     M --> N[Subject-level report and provenance]
 ```
 
+<p class="figure-caption"><strong>Figure 1. Conceptual CALMaR processing chain.</strong> Each arrow is a data contract: the downstream stage depends on the type, space, provenance and quality status produced upstream. Human input remains conditional.</p>
+
 ## Stage contracts
 
 Each stage should declare:
