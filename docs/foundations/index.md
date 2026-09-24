@@ -78,8 +78,8 @@ Stroke appearance changes over time. Acute restricted diffusion, subacute oedema
 Language depends on interacting cortical, subcortical, white-matter, sensory, motor, and domain-general systems. An atlas label is a useful coordinate system, not a complete explanation of language function.
 
 <figure class="calmar-figure" markdown>
-![Original schematic of a left-lateralized core language network interacting through dorsal and ventral pathways with perceptual, motor and broader cognitive systems.](../assets/distributed-language-systems.svg)
-<figcaption><strong>Figure 4. Distributed systems supporting language.</strong> This is an original conceptual synthesis, not a reproduction of either paper's figure. It combines the dorsal–ventral account of <a href="https://doi.org/10.1038/nrn2113">Hickok and Poeppel (2007)</a> with the distinction between the core language-selective network and interacting perceptual, motor and broader cognitive systems discussed by <a href="https://doi.org/10.1038/s41583-024-00802-4">Fedorenko, Ivanova and Regev (2024)</a>.</figcaption>
+![Left-hemisphere dorsal and ventral language pathways, their cortical endpoints, redundantly connected areas and alternative white-matter connections.](../assets/open-imaging/lopez-barroso-2017-language-pathways.jpg)
+<figcaption><strong>Figure 4. Dorsal and ventral language pathways.</strong> The dorsal pathway is associated primarily with auditory–motor integration and verbal repetition; the ventral pathway is associated primarily with mapping speech onto concepts for comprehension. The overlap and alternative connections are especially relevant after stroke: a lesion can affect several connected components, while spared pathways may support compensation. Reproduced without alteration from Figure 1 of <a href="https://doi.org/10.3389/fnhum.2017.00476">López-Barroso and de Diego-Balaguer (2017)</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
 </figure>
 
 ## Three distinctions to preserve

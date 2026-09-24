@@ -21,6 +21,10 @@ The labelled T1/T2 comparison in Figure 1 of *Why neuroimaging matters* is an ad
 - **MacIntosh BJ, Graham SJ (2013).** Figures 1 and 2 from [*Magnetic Resonance Imaging to Visualize Stroke and Characterize Stroke Recovery: A Review*](https://doi.org/10.3389/fneur.2013.00060). © 2013 MacIntosh and Graham; [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Reproduced without alteration.
 - **Madai VI et al. (2012).** Figure 1 from [*Ultrahigh-Field MRI in Human Ischemic Stroke—a 7 Tesla Study*](https://doi.org/10.1371/journal.pone.0037631). © 2012 Madai et al.; [Creative Commons Attribution](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037631). Reproduced without alteration.
 
+## Language-network figure
+
+- **López-Barroso D, de Diego-Balaguer R (2017).** Figure 1 from [*Language Learning Variability within the Dorsal and Ventral Streams as a Cue for Compensatory Mechanisms in Aphasia Recovery*](https://doi.org/10.3389/fnhum.2017.00476). © 2017 López-Barroso and de Diego-Balaguer; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reproduced without alteration.
+
 ## Other modality examples
 
 - **Diffusion MRI / tractography:** Dayan M, Munoz M, Jentschke S, et al. (2013), [*Optic radiation structure and anatomy in the normally developing brain determined using diffusion MRI and tractography*](https://doi.org/10.1007/s00429-013-0655-y). Image available from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Optic_radiation_probabilistic_map.jpg), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -29,7 +33,7 @@ The labelled T1/T2 comparison in Figure 1 of *Why neuroimaging matters* is an ad
 
 ## Original diagrams
 
-The following are original CALMaR teaching diagrams created for this site: distributed language systems, image spaces, left–right conventions, linear and non-linear registration, the lesion-segmentation workflow and the NiMARE overview. Their captions identify the literature that informed them where relevant.
+The following are original CALMaR teaching diagrams created for this site: image spaces, left–right conventions, linear and non-linear registration, the lesion-segmentation workflow and the NiMARE overview. Their captions identify the literature that informed them where relevant.
 
 ## Reuse notes
 
