@@ -15,7 +15,7 @@ python -m pip install -r requirements.txt
 mkdocs serve
 ```
 
-Open `http://127.0.0.1:8000/how-to-calmar/`.
+Open `http://127.0.0.1:8000/`.
 
 ## Update the guide
 
@@ -24,7 +24,7 @@ Open `http://127.0.0.1:8000/how-to-calmar/`.
 - Add or reorder pages in `mkdocs.yml`.
 - Link changing technical results to the relevant CALMaR notebook instead of reproducing them here.
 
-Pushes to `main` validate the site. Once the repository is public and GitHub Pages is enabled, they also publish it. In the GitHub repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**.
+Pushes to `main` validate and publish the site at [how-to-calmar.github.io](https://how-to-calmar.github.io/). GitHub Pages uses the repository's **GitHub Actions** publishing source.
 
 ## Relationship to NeurodeskEDU
 
