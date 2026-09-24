@@ -1,4 +1,8 @@
-# Understanding neuroimaging for CALMaR
+# How to CALMaR
+
+**CALMaR: Co-designed, Automated Lesion Mapping and Reporting**
+
+## Understanding neuroimaging for CALMaR
 
 CALMaR connects neuroimaging tools into a reproducible workflow for stroke lesion mapping and clinically interpretable reporting. This guide explains the concepts needed to work on that workflow without turning every contributor into a radiologist or neuroimaging methodologist.
 

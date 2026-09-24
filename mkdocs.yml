@@ -1,8 +1,8 @@
-site_name: Understanding neuroimaging for CALMaR
-site_description: A practical neuroimaging guide for engineers working on CALMaR
-site_url: https://micmas.github.io/calmar-knowledge/
-repo_url: https://github.com/micmas/calmar-knowledge
-repo_name: micmas/calmar-knowledge
+site_name: How to CALMaR
+site_description: Neuroimaging concepts and workflow guidance for contributors to Co-designed, Automated Lesion Mapping and Reporting
+site_url: https://micmas.github.io/how-to-calmar/
+repo_url: https://github.com/micmas/how-to-calmar
+repo_name: micmas/how-to-calmar
 edit_uri: edit/main/docs/
 
 theme:
@@ -81,4 +81,4 @@ extra:
       link: https://github.com/micmas/calmar
       name: CALMaR on GitHub
 
-copyright: CALMaR knowledge guide
+copyright: How to CALMaR

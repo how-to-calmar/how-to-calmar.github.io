@@ -26,10 +26,13 @@ jobs:
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
       - uses: actions/configure-pages@v5
+        if: github.event.repository.private == false
       - uses: actions/upload-pages-artifact@v3
+        if: github.event.repository.private == false
         with:
           path: site
   deploy:
+    if: github.event.repository.private == false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

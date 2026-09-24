@@ -1,8 +1,8 @@
-# Understanding neuroimaging for CALMaR
+# How to CALMaR
 
-This repository contains a Markdown-first knowledge site for engineers and collaborators working on [CALMaR](https://github.com/micmas/calmar).
+This repository contains a Markdown-first knowledge site for engineers and collaborators working on [CALMaR — Co-designed, Automated Lesion Mapping and Reporting](https://github.com/micmas/calmar).
 
-The guide explains the neuroimaging concepts needed to understand, extend, and evaluate CALMaR. Changing implementation details and lesion-segmentation benchmark results remain in the CALMaR repository rather than being duplicated here.
+Its introductory section, **Understanding neuroimaging for CALMaR**, explains the concepts needed to understand, extend, and evaluate the workflow. Changing implementation details and lesion-segmentation benchmark results remain in the CALMaR repository rather than being duplicated here.
 
 ## Preview locally
 
@@ -13,7 +13,7 @@ python -m pip install -r requirements.txt
 mkdocs serve
 ```
 
-Open `http://127.0.0.1:8000`.
+Open `http://127.0.0.1:8000/how-to-calmar/`.
 
 ## Update the guide
 
@@ -22,7 +22,7 @@ Open `http://127.0.0.1:8000`.
 - Add or reorder pages in `mkdocs.yml`.
 - Link changing technical results to the relevant CALMaR notebook instead of reproducing them here.
 
-Pushes to `main` build and publish the site through GitHub Pages. In the GitHub repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**.
+Pushes to `main` validate the site. Once the repository is public and GitHub Pages is enabled, they also publish it. In the GitHub repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**.
 
 ## Relationship to NeurodeskEDU
 
